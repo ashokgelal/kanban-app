@@ -28,7 +28,9 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: "${{ steps.time.outputs.time }}"
-          path: .nuxt/
+          path: |
+            .nuxt/
+            package.json
   
       - name: Trigger Cleavr Deployment
         uses: fjogeleit/http-request-action@master
