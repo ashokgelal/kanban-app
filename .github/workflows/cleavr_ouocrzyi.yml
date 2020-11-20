@@ -1,5 +1,6 @@
 name: Deploy Nuxt Server App with Cleavr
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
