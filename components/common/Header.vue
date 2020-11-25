@@ -10,7 +10,7 @@
           class="h-12 text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary transition-colors ease-linear"
         />
         <h1 class="font-medium text-kanban-gray dark:text-white text-2xl ml-4">
-          Kanban Application
+My          Kanban Application
         </h1>
       </nuxt-link>
     </div>
